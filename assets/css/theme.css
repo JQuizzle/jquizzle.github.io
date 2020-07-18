@@ -1,0 +1,23 @@
+pre {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 20px
+}
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+body {
+    -webkit-font-smoothing: antialiased
+}
+
+}
+
+p img {
+    width: 100%;
+}
+
+code {
+    color: #E83E0D;
+}
