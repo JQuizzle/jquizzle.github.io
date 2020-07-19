@@ -11,13 +11,42 @@ img {
 body {
     -webkit-font-smoothing: antialiased
 }
-
+.home-post-meta {
+    font-size: .8rem;
+    color: #777;
+}
+.home-post-subtitle {
+    font-style: italic;
+    font-weight: 400;
+}
+.home-post-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.post-title {
+    font-weight: 400;
+}
+.post-meta {
+    color: #777;
+    font-weight: 400;
 }
 
+.card-image {
+    max-height: 500px;
+}
 p img {
     width: 100%;
 }
 
 code {
-    color: #E83E0D;
+    color: black;
+}
+ul.posts {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.highlighter-rouge {
+    background-color: #e4e4e4;
+    padding: 3px;
 }
