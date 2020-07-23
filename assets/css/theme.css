@@ -34,6 +34,14 @@ body {
 .card-image {
     max-height: 500px;
 }
+.post-align {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.post-align figure {
+    margin-left: -15%;
+    margin-right: -15%;
+}
 p img {
     width: 100%;
 }
