@@ -3,7 +3,7 @@ layout: post
 title:  Getting Ready for Photos
 date:   2020-07-22 20:52:00 -0700
 categories: photography update
-description: "More features optimize the photo blog experience"
+description: "More features to optimize the photo blog experience"
 image:
 ---
 
