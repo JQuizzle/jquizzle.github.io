@@ -2,15 +2,16 @@
 <html lang="{{ site.lang | default: 'en-US' }}">
 <head>
   {% if jekyll.environment == "development" %}
-  {% else %}
-  {% include ga.html %}
+    {% else %}
+      {% include ga.html %}
   {% endif %}
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+  {% include head_links.html %}
+
+  {% if page.photoswipe == true %}
+    {% include photoswipe.html %}
+  {% endif %}
+  
 </head>
 <body>
 <!-- <div class="container">
@@ -22,9 +23,14 @@
 </div>
 
 {% include footer.html %}
-<script>
-const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-observer.observe();
-</script>
+
+{% if page.photoswipe == true %}
+  {% include photoswipe_element.html %}
+{% endif %}
+
+{% if page.lazyLoad == true %}
+  {% include lazy_load.html %}
+{% endif %}
+
 </body>
 </html>

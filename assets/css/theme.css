@@ -37,7 +37,9 @@ body {
 p img {
     width: 100%;
 }
-
+/* a img {
+    width: auto;
+} */
 code {
     color: black;
 }
