@@ -18,3 +18,4 @@ twitter:
   username: 
   card: summary #keep this to generate a twitter share card
 cdnBaseUrl: https://jquan.b-cdn.net/
+permalink: /:title/
