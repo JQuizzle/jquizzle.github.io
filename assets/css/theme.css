@@ -60,3 +60,15 @@ ul.posts {
     background-color: #e4e4e4;
     padding: 3px;
 }
+
+@media only screen and (max-width: 600px) {
+    .post-align {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+    .post-align figure {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
