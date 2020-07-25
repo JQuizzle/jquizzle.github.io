@@ -3,3 +3,7 @@
 <title>{{ page.title }} - {{ site.title }}</title>
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
+
+{% if page.photoset == true %}
+<link rel="stylesheet" href="{{ '/assets/css/photoset.css' | relative_url }}">
+{% endif %}
