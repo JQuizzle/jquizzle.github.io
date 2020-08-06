@@ -1,0 +1,78 @@
+{% for image in site.data.photosets.photoset-test %}
+{% if image.layout == 'leader' %}
+<div class="col-md-12 mt-3">
+        <picture>
+            <source media="(min-width:1680px)" srcset="{{ image.large }}">
+            <source media="(min-width:1024px)" srcset="{{ image.medium }}">
+            <source media="(min-width:640px)" srcset="{{ image.small }}">
+            <img src="{{ image.large }}" alt="{{ image.alt }}">
+        </picture>
+</div>
+{% elsif image.layout == 'pic' %}
+<div class="col-md-12 mt-3">
+        <picture>
+            <source media="(min-width:1680px)" srcset="{{ image.large }}">
+            <source media="(min-width:1024px)" srcset="{{ image.medium }}">
+            <source media="(min-width:640px)" srcset="{{ image.small }}">
+            <img src="{{ image.large }}" alt="{{ image.alt }}">
+        </picture>
+</div>
+{% elsif image.layout == 'video'}
+<video width="320" height="240" autoplay>
+    <source src="{{ image.videoPath }}" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </video>
+{% elsif image.layout == 'picPic' %}
+<div class="col-md-6 mt-3 pr-2">
+    <picture>
+        <source media="(min-width:1680px)" srcset="{{ image.largeLeft }}">
+        <source media="(min-width:1024px)" srcset="{{ image.mediumLeft }}">
+        <source media="(min-width:640px)" srcset="{{ image.smallLeft }}">
+        <img src="{{ image.largeLeft }}" alt="{{ image.altLeft }}">
+    </picture>
+</div>
+<div class="col-md-6 mt-3 pl-2">
+    <picture>
+        <source media="(min-width:1680px)" srcset="{{ image.largeRight }}">
+        <source media="(min-width:1024px)" srcset="{{ image.mediumRight }}">
+        <source media="(min-width:640px)" srcset="{{ image.smallRight }}">
+        <img src="{{ image.largeRight }}" alt="{{ image.altRight }}">
+    </picture>
+</div>
+{% elsif image.layout == 'picText' %}
+<div class="col-md-6 mt-3 pr-2">
+    <picture>
+        <source media="(min-width:1680px)" srcset="{{ image.large }}">
+        <source media="(min-width:1024px)" srcset="{{ image.medium }}">
+        <source media="(min-width:640px)" srcset="{{ image.small }}">
+        <img src="{{ image.large }}" alt="{{ image.alt }}">
+    </picture>
+</div>
+<div class="col-md-6 mt-3 align-self-center photoset">
+    <p>{{ image.text }}</p>
+</div>
+{% elsif image.layout == 'textPic' %}
+<div class="col-md-6 mt-3 align-self-center photoset">
+    <p>{{ image.text }}</p>
+</div>
+<div class="col-md-6 mt-3 pl-2">
+    <picture>
+        <source media="(min-width:1680px)" srcset="{{ image.large }}">
+        <source media="(min-width:1024px)" srcset="{{ image.medium }}">
+        <source media="(min-width:640px)" srcset="{{ image.small }}">
+        <img src="{{ image.large }}" alt="{{ image.alt }}">
+    </picture>
+</div>
+{% elsif image.layout == 'sectionBreak' %}
+<div class="col-md-12 mt-3 align-self-center photoset">
+    {% if image.title != null %}
+    <h2>{{ image.title }}</h2>
+    {% endif %}
+    {{ image.text }}
+</div>
+{% endif %}
+{% endfor %}
+<div class="mb-5">
+    <p>&nbsp;</p>
+</div>

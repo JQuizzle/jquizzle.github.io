@@ -1,25 +1,22 @@
 ---
 layout: default
 ---
-<div class="post-align">
 
-<div class="row mt-1">
-    <div class="col-md-10 offset-md-1 post">
-        {% if page.url != "/" %}
-            <a href="/">Home</a>
-        {% endif %}
-    </div>
-</div>
-
-<div class="row mt-5">
-    <div class="col-md-10 offset-md-1">
-
-            <h1 class="post-title">{{ page.title }}</h1>
-            <p class="post-meta">{{ page.date | date: '%b %d, %Y' }}</p>
-            {{ content }}
+<div class="container mt-5">
+    <div class="post-align">
+        <div class="row mt-1">
+            <div class="col-md-10 offset-md-1 post">
+                {% if page.url != "/" %}
+                    <a href="/">Home</a>
+                {% endif %}
+            </div>
         </div>
-        
-        <!-- center text to be width 60% of page -->
-        <!-- images to be width 100% of page -->
+        <div class="row mt-5">
+            <div class="col-md-10 offset-md-1">
+                <h1 class="post-title">{{ page.title }}</h1>
+                <p class="post-meta">{{ page.date | date: '%b %d, %Y' }}</p>
+                {{ content }}
+            </div>
+        </div>
     </div>
 </div>
