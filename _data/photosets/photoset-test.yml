@@ -1,3 +1,17 @@
+- leaderboard:
+  layout: leader
+  small: http://placekitten.com/450/180
+  medium: http://placekitten.com/1000/600
+  large: http://placekitten.com/2500/1500
+
+- video:
+  layout: video
+  videoPath: /images/vid-test.mp4
+
+- sectionBreak:
+  layout: sectionBreak
+  text: This is a much needed break!
+
 - image1:
   layout: pic
   small: /images/450.jpeg
