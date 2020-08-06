@@ -2,12 +2,13 @@
 {% if image.layout == 'leader' %}
 <div class="col-md-12 mt-3">
         <picture>
-            <source media="(min-width:1680px)" srcset="{{ image.large }}">
+            <source media="(min-width:1680px)" srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.large }}">
             <source media="(min-width:1024px)" srcset="{{ image.medium }}">
             <source media="(min-width:640px)" srcset="{{ image.small }}">
             <img src="{{ image.large }}" alt="{{ image.alt }}">
         </picture>
 </div>
+<!-- https://jquan.b-cdn.net/blog/photodeck/2018_07_honeymoon/IMG_1077_1024.png -->
 {% elsif image.layout == 'pic' %}
 <div class="col-md-12 mt-3">
         <picture>
