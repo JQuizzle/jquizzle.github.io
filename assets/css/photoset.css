@@ -1,3 +1,5 @@
+
+
 .photoset-align {
     margin-right: 1%;
     margin-left: 1%;
@@ -6,4 +8,8 @@
     margin-right: 10%;
     margin-left: 10%;
     width: 80%;
+}
+
+img {
+    border-radius: 0;
 }

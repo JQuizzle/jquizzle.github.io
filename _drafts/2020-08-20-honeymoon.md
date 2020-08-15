@@ -6,6 +6,7 @@ author: john
 image:
 cdnPath: /blog/photodeck/2018_07_honeymoon/
 description: Let's see what a photoset is going to look like!
+dataPath: 2020-08-20-honeymoon
 photoset: true
 photoswipe: true
 lazyLoad: true

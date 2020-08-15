@@ -1,0 +1,64 @@
+- leaderboard:
+  layout: leader
+  small: IMG_2553_640.png
+  medium: IMG_2553_1024.png
+  large: IMG_2553_1680.png
+
+- video:
+  layout: video
+  videoPath: vid-test.mp4
+
+- sectionBreak:
+  layout: sectionBreak
+  text: This is a much needed break!
+
+- image1:
+  layout: pic
+  small: IMG_2589_640.png
+  medium: IMG_2589_1024.png
+  large: IMG_2589_1680.png
+  alt: image 1
+
+- sectionBreak:
+  layout: sectionBreak
+  title: Hi, I'm a Section Break
+  text: This is some text. I will need to read up on how to new line break.
+
+
+- image3:
+  layout: picPic
+  smallLeft: IMG_1199_640.png
+  mediumLeft: IMG_1199_1024.png
+  largeLeft: IMG_1199_1680.png
+  altLeft: I am the left text for all of this
+  smallRight: IMG_1164_640.png
+  mediumRight: IMG_1164_1024.png
+  largeRight: IMG_1164_1680.png
+  altRight: I am the left text for all of this
+
+
+- image7:
+  layout: picText
+  small: IMG_2589_640.png
+  medium: IMG_2589_1024.png
+  large: IMG_2589_1680.png
+  alt: image split 3
+  text: Even more text on the left. Conditionals ftw!
+
+- image8:
+  layout: textPic
+  small: IMG_2589_640.png
+  medium: IMG_2589_1024.png
+  large: IMG_2589_1680.png
+  alt: image split 3
+  text: This is some text. Text can go here in the column next to the image.
+
+- image9:
+  layout: pic
+  small: IMG_2538_640.png
+  medium: IMG_2538_1024.png
+  large: IMG_2538_1680.png
+  alt: image split 3
+  text: Hello, I'm a beer!
+
+
