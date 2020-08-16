@@ -1,37 +1,170 @@
-- image:
-  layout: pic
-  small: IMG_2553-640x480.png
-  medium: IMG_2553-1024x768.png
-  large: IMG_2553-1400x1050.png
+- leader:
+  layout: leader
+  small: IMG_1493-640x480.png
+  medium: IMG_1493-1024x768.png
+  large: IMG_1493-1400x1050.png
 
-- sectionBreak:
-  layout: sectionBreak
-  title: OMG, the Italian Alps!
-  text: This is a much needed break!
+- textBlock:
+  layout: textBlock
+  small: img_map.png
+  medium: img_map.png
+  large: img_map.png
+  textBefore: "We flew out on a Friday, arrived Saturday morning, and took the bus. From there, we walked to our spot, got settled, and then headed out for the afternoon and evening."
+  textAfter: "Exploring around town for libations, local stops, gelato! We stayed in the Gracia area which was close to the subway, local eateries. We also had a rooftop deck which allowed us to lounge in the open space while taking breaks,having happy hours, etc."
 
 - image:
   layout: picx2
-  smallLeft: IMG_2502-640x480.png
-  mediumLeft: IMG_2502-1024x768.png
-  largeLeft: IMG_2502-1400x1050.png
-  altLeft: I am the left text for all of this
-  smallRight: IMG_2520-640x480.png
-  mediumRight: IMG_2520-1024x768.png
-  largeRight: IMG_2520-1400x1050.png
-  altRight: I am the left text for all of this
+  small1: IMG_1150-640x480.png 
+  medium1: IMG_1150-1024x768.png
+  large1: IMG_1150-1400x1050.png
+  alt1:
+  small2: IMG_1156-640x480.png
+  medium2: IMG_1156-1024x768.png
+  large2: IMG_1156-1400x1050.png
+  alt2:
 
 - image:
+  layout: picx2
+  small1: IIMG_1163-640x480.png
+  medium1: IMG_1163-1024x768.png
+  large1: IMG_1163-1400x1050.png
+  alt1:
+  small2: IMG_1164-640x480.png
+  medium2: IMG_1164-1024x768.png
+  large2: IMG_1164-1400x1050.png
+  alt2:
+
+- image:
+  layout: picx2
+  small1: IMG_1169-360x480.png
+  medium1: IMG_1169-576x768.png
+  large1: IMG_1169-788x1050.png
+  alt1:
+  small2: IMG_1186-360x480.png 
+  medium2: IMG_1186-576x768.png
+  large2: IMG_1186-788x1050.png
+  alt2:
+
+- pic:
   layout: pic
-  small: IMG_2589_640.png
-  medium: IMG_2589_1024.png
-  large: IMG_2589_1680.png
-  alt: image 1
+  small: IMG_1194-640x480.png
+  medium: IMG_1194-1024x768.png
+  large: IMG_1194-1400x1050.png
+
+- sectionBreak:
+  layout: sectionBreak
+  title: Spanish Grand Prix - Circuit de Barcelona-Catalunya
+  text: "Sadly, not a whole lot of pictures of the cars themselves. More videos were taken, which really captures the speed and intensity of these cars."
+
+- image: race
+  layout: pic
+  small: IMG_1263-640x480.png
+  medium: IMG_1263-1024x768.png
+  large: IMG_1263-1400x1050.png
+
+- image: race
+  layout: picx2
+  small1: IMG_1235-640x480.png
+  medium1: IMG_1235-1024x768.png
+  large1: IMG_1235-1400x1050.png
+  alt1:
+  small2: IMG_1273-640x480.png
+  medium2: IMG_1273-1024x768.png
+  large2: IMG_1273-1400x1050.png
+  alt2: 
+
+- image: race
+  layout: pic
+  small: IMG_1256-640x192.png
+  medium: IMG_1256-1024x306.png
+  large: IMG_1256-1680x503.png
+
+- image: race
+  layout: picx2
+  small1: IMG_1258-360x480.png
+  medium1: IMG_1258-576x768.png
+  large1: IMG_1258-788x1050.png
+  alt1:
+  small2: IMG_1279-361x480.png
+  medium2: IMG_1279-577x768.png
+  large2: IMG_1279-789x1050.png
+  alt2: 
+
+- image: race
+  layout: pic
+  small: IMG_1298-640x201.png
+  medium: IMG_1298-1024x322.png
+  large: IMG_1298-1680x529.png
+
+- sectionBreak: "back to the city"
+  layout: sectionBreak
+  title: "Back to Exploring Barcelona"
+  text: "Race done. Familiarizing ourselves with public transportation. Done. Next up, being a tourist."
+
+- image: tourist go home
+  layout: pic
+  small: IMG_1303-639x480.png
+  medium: IMG_1303-1022x768.png
+  large: IMG_1303-1398x1050.png
+
+- image: beachPano
+  layout: pic
+  small: IMG_1326-640x194.png
+  medium: IMG_1326-1024x310.png
+  large: IMG_1326-1680x509.png
+
+- image:
+  layout: textPic
+  small: IMG_1322-640x480.png
+  medium: IMG_1322-1024x768.png
+  large: IMG_1322-1400x1050.png
+  text: "Taking a walk to the beach."
+
+- image: drinks
+  layout: picx2
+  small1: IMG_1408-360x480.png
+  medium1: IMG_1408-576x768.png
+  large1: IMG_1408-788x1050.png
+  alt1:
+  small2: IMG_1302-360x480.png
+  medium2: IMG_1302-576x768.png
+  large2: IMG_1302-788x1050.png
+
+- image: familia
+  layout: picx3
+  small1: IMG_1339-359x480.png
+  medium1: IMG_1339-575x768.png
+  large1: IMG_1339-786x1050.png
+  altLeft: 
+  small2: IMG_1167-360x480.png
+  medium2: IMG_1167-576x768.png
+  large2: IMG_1167-788x1050.png
+  altRight: 
+  small3: IMG_1342-361x480.png
+  medium3: IMG_1342-577x768.png
+  large3: IMG_1342-789x1050.png
+  altRight: 
+
+- image: longFamiliar
+  layout: pic
+  small: IMG_1333-234x480.png
+  medium: IMG_1333-374x768.png
+  large: IMG_1333-512x1050.png
+
+- image: concert
+  layout: picx2
+  small1: IMG_1353-640x480.png
+  medium1: IMG_1353-1024x768.png
+  large1: IMG_1353-1400x1050.png
+  alt1:
+  small2: IMG_1368-640x480.png
+  medium2: IMG_1368-1024x768.png
+  large2: IMG_1368-1400x1050.png
 
 - sectionBreak:
   layout: sectionBreak
   title: Hi, I'm a Section Break
   text: This is some text. I will need to read up on how to new line break.
-
 
 - image3:
   layout: picx4
@@ -54,25 +187,25 @@
 
 - image7:
   layout: picText
-  small: IMG_2589_640.png
-  medium: IMG_2589_1024.png
-  large: IMG_2589_1680.png
+  small: 
+  medium:
+  large:
   alt: image split 3
   text: Even more text on the left. Conditionals ftw!
 
 - image8:
   layout: textPic
-  small: IMG_2589_640.png
-  medium: IMG_2589_1024.png
-  large: IMG_2589_1680.png
+  small: 
+  medium:
+  large:
   alt: image split 3
   text: This is some text. Text can go here in the column next to the image.
 
 - image9:
   layout: pic
-  small: IMG_2538_640.png
-  medium: IMG_2538_1024.png
-  large: IMG_2538_1680.png
+  small:
+  medium:
+  large:
   alt: image split 3
   text: Hello, I'm a beer!
 
