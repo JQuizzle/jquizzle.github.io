@@ -2,19 +2,16 @@
 
 {% for image in photosetPath %}
 {% if image.layout == 'leader' %}
-<div class="col-md-12 mt-3">
-        <picture>
-            <source media="(min-width:1680px)" 
-                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.large }}">
-            <source media="(min-width:1024px)" 
-                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.medium }}">
-            <source media="(min-width:300px)" 
-                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.small }}">
-            <img src="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.small }}" alt="{{ image.alt }}">
-        </picture>
+<div class="col-md-12 mt-3 pl-1 pr-1">
+    <picture>
+        <source media="(min-width:1680px)" srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.large }}">
+        <source media="(min-width:1024px)" srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.medium }}">
+        <source media="(min-width:300px)" srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.small }}">       
+        <img src="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.small }}" alt="{{ image.alt }}">
+    </picture>
 </div>
 {% elsif image.layout == 'pic' %}
-<div class="col-md-12 mt-3">
+<div class="col-md-12 mt-3 pl-1 pr-1">
         <picture>
             <source media="(min-width:1680px)" srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.large }}">
             <source media="(min-width:1024px)" srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.medium }}">
@@ -22,8 +19,8 @@
             <img src="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.large }}" alt="{{ image.alt }}">
         </picture>
 </div>
-{% elsif image.layout == 'picPic' %}
-<div class="col-md-6 mt-3 pr-1">
+{% elsif image.layout == 'picx2' %}
+<div class="col-md-6 mt-3 pl-1 pr-1">
     <picture>
         <source media="(min-width:1680px)" 
                     srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.largeLeft }}">
@@ -34,7 +31,7 @@
             <img src="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.smallLeft }}" alt="{{ image.altLeft }}">
     </picture>
 </div>
-<div class="col-md-6 mt-3 pl-1">
+<div class="col-md-6 mt-3 pl-1 pr-1">
     <picture>
         <source media="(min-width:1680px)" 
                     srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.largeRight }}">
@@ -46,7 +43,7 @@
     </picture>
 </div>
 {% elsif image.layout == 'picText' %}
-<div class="col-md-6 mt-3 pr-1">
+<div class="col-md-6 mt-3 pl-1 pr-1">
     <picture>
         <source media="(min-width:1680px)" srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.large }}">
         <source media="(min-width:1024px)" srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.medium }}">
@@ -61,7 +58,7 @@
 <div class="col-md-6 mt-3 align-self-center photoset">
     <p>{{ image.text }}</p>
 </div>
-<div class="col-md-6 mt-3 pl-1">
+<div class="col-md-6 mt-3 pl-1 pr-1">
     <picture>
         <source media="(min-width:1680px)" srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.large }}">
         <source media="(min-width:1024px)" srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.medium }}">
@@ -70,11 +67,56 @@
     </picture>
 </div>
 {% elsif image.layout == 'sectionBreak' %}
-<div class="col-md-12 mt-3 align-self-center photoset">
+<div class="col-md-12 mt-5 mb-5 align-self-center photoset">
     {% if image.title != null %}
     <h2>{{ image.title }}</h2>
     {% endif %}
     {{ image.text }}
+</div>
+{% elsif image.layout == 'picx4' %}
+<div class="col-md-3 mt-3 pr-1 pl-1">
+    <picture>
+        <source media="(min-width:1680px)" 
+                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.large1 }}">
+            <source media="(min-width:1024px)" 
+                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.medium1 }}">
+            <source media="(min-width:300px)" 
+                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.small1 }}">
+            <img src="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.small1 }}" alt="{{ image.alt1 }}">
+    </picture>
+</div>
+<div class="col-md-3 mt-3 pr-1 pl-1">
+    <picture>
+        <source media="(min-width:1680px)" 
+                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.large2 }}">
+            <source media="(min-width:1024px)" 
+                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.medium2 }}">
+            <source media="(min-width:300px)" 
+                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.small2 }}">
+            <img src="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.small2 }}" alt="{{ image.alt2 }}">
+    </picture>
+</div>
+<div class="col-md-3 mt-3 pl-1 pr-1">
+    <picture>
+        <source media="(min-width:1680px)" 
+                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.large3 }}">
+            <source media="(min-width:1024px)" 
+                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.medium3 }}">
+            <source media="(min-width:300px)" 
+                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.small3 }}">
+            <img src="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.small3 }}" alt="{{ image.alt3 }}">
+    </picture>
+</div>
+<div class="col-md-3 mt-3 pl-1 pr-1">
+    <picture>
+        <source media="(min-width:1680px)" 
+                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.large4 }}">
+            <source media="(min-width:1024px)" 
+                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.medium4 }}">
+            <source media="(min-width:300px)" 
+                    srcset="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.small4 }}">
+            <img src="{{ site.cdnBaseUrl }}{{ page.cdnPath }}{{ image.small4 }}" alt="{{ image.alt4 }}">
+    </picture>
 </div>
 {% endif %}
 {% endfor %}

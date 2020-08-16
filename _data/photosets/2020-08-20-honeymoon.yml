@@ -1,18 +1,26 @@
-- leaderboard:
-  layout: leader
-  small: IMG_2553_640.png
-  medium: IMG_2553_1024.png
-  large: IMG_2553_1680.png
-
-- video:
-  layout: video
-  videoPath: vid-test.mp4
+- image:
+  layout: pic
+  small: IMG_2553-640x480.png
+  medium: IMG_2553-1024x768.png
+  large: IMG_2553-1400x1050.png
 
 - sectionBreak:
   layout: sectionBreak
+  title: OMG, the Italian Alps!
   text: This is a much needed break!
 
-- image1:
+- image:
+  layout: picx2
+  smallLeft: IMG_2502-640x480.png
+  mediumLeft: IMG_2502-1024x768.png
+  largeLeft: IMG_2502-1400x1050.png
+  altLeft: I am the left text for all of this
+  smallRight: IMG_2520-640x480.png
+  mediumRight: IMG_2520-1024x768.png
+  largeRight: IMG_2520-1400x1050.png
+  altRight: I am the left text for all of this
+
+- image:
   layout: pic
   small: IMG_2589_640.png
   medium: IMG_2589_1024.png
@@ -26,16 +34,23 @@
 
 
 - image3:
-  layout: picPic
-  smallLeft: IMG_1199_640.png
-  mediumLeft: IMG_1199_1024.png
-  largeLeft: IMG_1199_1680.png
-  altLeft: I am the left text for all of this
-  smallRight: IMG_1164_640.png
-  mediumRight: IMG_1164_1024.png
-  largeRight: IMG_1164_1680.png
-  altRight: I am the left text for all of this
-
+  layout: picx4
+  small1: IMG_2150-640x480.png
+  medium1: IMG_2150-1024x768.png
+  large1: IMG_2150-1400x1050.png
+  alt1:
+  small2: IMG_2153-640x480.png
+  medium2: IMG_2153-1024x768.png
+  large2: IMG_2153-1400x1050.png
+  alt2:
+  small3: IMG_2155-640x480.png
+  medium3: IMG_2155-1024x768.png
+  large3: IMG_2155-1400x1050.png
+  alt3:
+  small4: IMG_2157-640x480.png
+  medium4: IMG_2157-1024x768.png
+  large4: IMG_2157-1400x1050.png
+  alt4:
 
 - image7:
   layout: picText

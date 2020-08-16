@@ -20,112 +20,96 @@ This is an inline image. Let's get this 100% width!
 
 
 <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
         </a>
         <figcaption itemprop="caption description">Image caption</figcaption>
     </figure>
-
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="contentUrl" data-size="600x400">
             <img data-src="{{ site.cdnBaseUrl }}0BDAFE77-442A-4F6A-8057-74F5E03B6A0B.jpeg" itemprop="thumbnail" alt="Image description" />
